@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <title>Dirkko</title>
+</head>
+<body>
+    <header>
+        <div class="container-md mt-3">
+            <nav class="navbar bg-light">
+                    <a class="navbar-brand text-center" href="#" style="display: flex; align-items:center;">
+                        <p class="h1">Dirkk</p>
+                      <img src="img/LOGO DIRKKO.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                    </a>
+                  <nav class="navbar navbar-expand-lg bg-light position-rigth">
+                      <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Shop</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                          <div class="navbar-nav">
+                            <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+                            <a class="nav-link" href="#">Productos</a>
+                            <a class="nav-link" href="#">Iniciar Sesion</a>
+                          </div>
+                        </div>
+                      </div>
+                    </nav>
+                </nav>
+            </div>
+
+    </header>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/img1.jpg" class="d-block w-100" alt="..." style="width:80%; height: 70%;">
+          </div>
+          <div class="carousel-item">
+            <img src="img/img1.jpg" class="d-block w-100" alt="..." style="width:80%; ">
+          </div>
+          <div class="carousel-item">
+            <img src="img/img1.jpg" class="d-block w-100" alt="..." style="height:80%;">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <div class="container  justify-content-center vh-auto align-items-center">
+        <div class="row row-cols-auto m-4">
+          <div class="col"> <div class="card" style="width: 18rem">
+            <img src="img/1.jpg" class="card-img-top img-fluid" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Name Product</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <h5 class="card-title">$ 9.99</h5>
+
+              <!-- <a href="#" class="btn btn-primary">Agregar al carrito</a> -->
+              <!-- aqui -->
+
+              <button type="button" class="btn btn-primary" id="liveToastBtn">
+                Agregar al carrito
+              </button>
+
+              <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div
+                  id="liveToast"
+                  class="toast"
+                  role="alert"
+                  aria-live="assertive"
+                  aria-atomic="true"
+                >
+                  <div class="toast-header text-bg-secondary p-3">
+                    <!-- <img src="img/LOGO DIRKKO.svg" class="rounded me-2" alt="..." /> -->
+                    <strong class="me-auto">DIRKKO</strong>
+                    <small>Justo ahora</small>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="toast"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="toast-body">
+                    Se agrego al carrito de compras
+                  </div>
+                </div>
+              </div>
+
+              <!-- desde aca -->
+            </div>
+          </div></div>
+          <div class="col"> <div class="card" style="width: 18rem">
+            <img src="img/1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Name Product</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <h5 class="card-title">$ 9.99</h5>
+
+              <!-- <a href="#" class="btn btn-primary">Agregar al carrito</a> -->
+              <!-- aqui -->
+
+              <button type="button" class="btn btn-primary" id="liveToastBtn">
+                Agregar al carrito
+              </button>
+
+              <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div
+                  id="liveToast"
+                  class="toast"
+                  role="alert"
+                  aria-live="assertive"
+                  aria-atomic="true"
+                >
+                  <div class="toast-header text-bg-secondary p-3">
+                    <!-- <img src="img/LOGO DIRKKO.svg" class="rounded me-2" alt="..." /> -->
+                    <strong class="me-auto">DIRKKO</strong>
+                    <small>Justo ahora</small>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="toast"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="toast-body">
+                    Se agrego al carrito de compras
+                  </div>
+                </div>
+              </div>
+
+              <!-- desde aca -->
+            </div>
+          </div></div>
+          <div class="col"> <div class="card" style="width: 18rem">
+            <img src="img/1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Name Product</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <h5 class="card-title">$ 9.99</h5>
+
+              <!-- <a href="#" class="btn btn-primary">Agregar al carrito</a> -->
+              <!-- aqui -->
+
+              <button type="button" class="btn btn-primary" id="liveToastBtn">
+                Agregar al carrito
+              </button>
+
+              <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div
+                  id="liveToast"
+                  class="toast"
+                  role="alert"
+                  aria-live="assertive"
+                  aria-atomic="true"
+                >
+                  <div class="toast-header text-bg-secondary p-3">
+                    <!-- <img src="img/LOGO DIRKKO.svg" class="rounded me-2" alt="..." /> -->
+                    <strong class="me-auto">DIRKKO</strong>
+                    <small>Justo ahora</small>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="toast"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="toast-body">
+                    Se agrego al carrito de compras
+                  </div>
+                </div>
+              </div>
+
+              <!-- desde aca -->
+            </div>
+          </div></div>
+          <div class="col"> <div class="card" style="width: 18rem">
+            <img src="img/1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Name Product</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <h5 class="card-title">$ 9.99</h5>
+
+              <!-- <a href="#" class="btn btn-primary">Agregar al carrito</a> -->
+              <!-- aqui -->
+
+              <button type="button" class="btn btn-primary" id="liveToastBtn">
+                Agregar al carrito
+              </button>
+
+              <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div
+                  id="liveToast"
+                  class="toast"
+                  role="alert"
+                  aria-live="assertive"
+                  aria-atomic="true"
+                >
+                  <div class="toast-header text-bg-secondary p-3">
+                    <!-- <img src="img/LOGO DIRKKO.svg" class="rounded me-2" alt="..." /> -->
+                    <strong class="me-auto">DIRKKO</strong>
+                    <small>Justo ahora</small>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="toast"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="toast-body">
+                    Se agrego al carrito de compras
+                  </div>
+                </div>
+              </div>
+
+              <!-- desde aca -->
+            </div>
+          </div></div>
+        </div>
+        <div class="row row-cols-auto m-4">
+          <div class="col"> <div class="card" style="width: 18rem">
+            <img src="img/1.jpg" class="card-img-top img-fluid" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Name Product</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <h5 class="card-title">$ 9.99</h5>
+
+              <!-- <a href="#" class="btn btn-primary">Agregar al carrito</a> -->
+              <!-- aqui -->
+
+              <button type="button" class="btn btn-primary" id="liveToastBtn">
+                Agregar al carrito
+              </button>
+
+              <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div
+                  id="liveToast"
+                  class="toast"
+                  role="alert"
+                  aria-live="assertive"
+                  aria-atomic="true"
+                >
+                  <div class="toast-header text-bg-secondary p-3">
+                    <!-- <img src="img/LOGO DIRKKO.svg" class="rounded me-2" alt="..." /> -->
+                    <strong class="me-auto">DIRKKO</strong>
+                    <small>Justo ahora</small>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="toast"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="toast-body">
+                    Se agrego al carrito de compras
+                  </div>
+                </div>
+              </div>
+
+              <!-- desde aca -->
+            </div>
+          </div></div>
+          <div class="col"> <div class="card" style="width: 18rem">
+            <img src="img/1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Name Product</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <h5 class="card-title">$ 9.99</h5>
+
+              <!-- <a href="#" class="btn btn-primary">Agregar al carrito</a> -->
+              <!-- aqui -->
+
+              <button type="button" class="btn btn-primary" id="liveToastBtn">
+                Agregar al carrito
+              </button>
+
+              <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div
+                  id="liveToast"
+                  class="toast"
+                  role="alert"
+                  aria-live="assertive"
+                  aria-atomic="true"
+                >
+                  <div class="toast-header text-bg-secondary p-3">
+                    <!-- <img src="img/LOGO DIRKKO.svg" class="rounded me-2" alt="..." /> -->
+                    <strong class="me-auto">DIRKKO</strong>
+                    <small>Justo ahora</small>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="toast"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="toast-body">
+                    Se agrego al carrito de compras
+                  </div>
+                </div>
+              </div>
+
+              <!-- desde aca -->
+            </div>
+          </div></div>
+          <div class="col"> <div class="card" style="width: 18rem">
+            <img src="img/1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Name Product</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <h5 class="card-title">$ 9.99</h5>
+
+              <!-- <a href="#" class="btn btn-primary">Agregar al carrito</a> -->
+              <!-- aqui -->
+
+              <button type="button" class="btn btn-primary" id="liveToastBtn">
+                Agregar al carrito
+              </button>
+
+              <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div
+                  id="liveToast"
+                  class="toast"
+                  role="alert"
+                  aria-live="assertive"
+                  aria-atomic="true"
+                >
+                  <div class="toast-header text-bg-secondary p-3">
+                    <!-- <img src="img/LOGO DIRKKO.svg" class="rounded me-2" alt="..." /> -->
+                    <strong class="me-auto">DIRKKO</strong>
+                    <small>Justo ahora</small>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="toast"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="toast-body">
+                    Se agrego al carrito de compras
+                  </div>
+                </div>
+              </div>
+
+              <!-- desde aca -->
+            </div>
+          </div></div>
+          <div class="col"> <div class="card" style="width: 18rem">
+            <img src="img/1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Name Product</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <h5 class="card-title">$ 9.99</h5>
+
+              <!-- <a href="#" class="btn btn-primary">Agregar al carrito</a> -->
+              <!-- aqui -->
+
+              <button type="button" class="btn btn-primary" id="liveToastBtn">
+                Agregar al carrito
+              </button>
+
+              <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div
+                  id="liveToast"
+                  class="toast"
+                  role="alert"
+                  aria-live="assertive"
+                  aria-atomic="true"
+                >
+                  <div class="toast-header text-bg-secondary p-3">
+                    <!-- <img src="img/LOGO DIRKKO.svg" class="rounded me-2" alt="..." /> -->
+                    <strong class="me-auto">DIRKKO</strong>
+                    <small>Justo ahora</small>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="toast"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="toast-body">
+                    Se agrego al carrito de compras
+                  </div>
+                </div>
+              </div>
+
+              <!-- desde aca -->
+            </div>
+          </div></div>
+        </div>
+        <div class="row row-cols-auto m-4">
+          <div class="col"> <div class="card" style="width: 18rem">
+            <img src="img/1.jpg" class="card-img-top img-fluid" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Name Product</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <h5 class="card-title">$ 9.99</h5>
+
+              <!-- <a href="#" class="btn btn-primary">Agregar al carrito</a> -->
+              <!-- aqui -->
+
+              <button type="button" class="btn btn-primary" id="liveToastBtn">
+                Agregar al carrito
+              </button>
+
+              <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div
+                  id="liveToast"
+                  class="toast"
+                  role="alert"
+                  aria-live="assertive"
+                  aria-atomic="true"
+                >
+                  <div class="toast-header text-bg-secondary p-3">
+                    <!-- <img src="img/LOGO DIRKKO.svg" class="rounded me-2" alt="..." /> -->
+                    <strong class="me-auto">DIRKKO</strong>
+                    <small>Justo ahora</small>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="toast"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="toast-body">
+                    Se agrego al carrito de compras
+                  </div>
+                </div>
+              </div>
+
+              <!-- desde aca -->
+            </div>
+          </div></div>
+          <div class="col"> <div class="card" style="width: 18rem">
+            <img src="img/1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Name Product</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <h5 class="card-title">$ 9.99</h5>
+
+              <!-- <a href="#" class="btn btn-primary">Agregar al carrito</a> -->
+              <!-- aqui -->
+
+              <button type="button" class="btn btn-primary" id="liveToastBtn">
+                Agregar al carrito
+              </button>
+
+              <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div
+                  id="liveToast"
+                  class="toast"
+                  role="alert"
+                  aria-live="assertive"
+                  aria-atomic="true"
+                >
+                  <div class="toast-header text-bg-secondary p-3">
+                    <!-- <img src="img/LOGO DIRKKO.svg" class="rounded me-2" alt="..." /> -->
+                    <strong class="me-auto">DIRKKO</strong>
+                    <small>Justo ahora</small>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="toast"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="toast-body">
+                    Se agrego al carrito de compras
+                  </div>
+                </div>
+              </div>
+
+              <!-- desde aca -->
+            </div>
+          </div></div>
+          <div class="col"> <div class="card" style="width: 18rem">
+            <img src="img/1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Name Product</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <h5 class="card-title">$ 9.99</h5>
+
+              <!-- <a href="#" class="btn btn-primary">Agregar al carrito</a> -->
+              <!-- aqui -->
+
+              <button type="button" class="btn btn-primary" id="liveToastBtn">
+                Agregar al carrito
+              </button>
+
+              <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div
+                  id="liveToast"
+                  class="toast"
+                  role="alert"
+                  aria-live="assertive"
+                  aria-atomic="true"
+                >
+                  <div class="toast-header text-bg-secondary p-3">
+                    <!-- <img src="img/LOGO DIRKKO.svg" class="rounded me-2" alt="..." /> -->
+                    <strong class="me-auto">DIRKKO</strong>
+                    <small>Justo ahora</small>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="toast"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="toast-body">
+                    Se agrego al carrito de compras
+                  </div>
+                </div>
+              </div>
+
+              <!-- desde aca -->
+            </div>
+          </div></div>
+          <div class="col"> <div class="card" style="width: 18rem">
+            <img src="img/1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Name Product</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <h5 class="card-title">$ 9.99</h5>
+
+              <!-- <a href="#" class="btn btn-primary">Agregar al carrito</a> -->
+              <!-- aqui -->
+
+              <button type="button" class="btn btn-primary" id="liveToastBtn">
+                Agregar al carrito
+              </button>
+
+              <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div
+                  id="liveToast"
+                  class="toast"
+                  role="alert"
+                  aria-live="assertive"
+                  aria-atomic="true"
+                >
+                  <div class="toast-header text-bg-secondary p-3">
+                    <!-- <img src="img/LOGO DIRKKO.svg" class="rounded me-2" alt="..." /> -->
+                    <strong class="me-auto">DIRKKO</strong>
+                    <small>Justo ahora</small>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="toast"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="toast-body">
+                    Se agrego al carrito de compras
+                  </div>
+                </div>
+              </div>
+
+              <!-- desde aca -->
+            </div>
+          </div></div>
+        </div>
+        <div class="row row-cols-auto m-4">
+          <div class="col"> <div class="card" style="width: 18rem">
+            <img src="img/1.jpg" class="card-img-top img-fluid" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Name Product</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <h5 class="card-title">$ 9.99</h5>
+
+              <!-- <a href="#" class="btn btn-primary">Agregar al carrito</a> -->
+              <!-- aqui -->
+
+              <button type="button" class="btn btn-primary" id="liveToastBtn">
+                Agregar al carrito
+              </button>
+
+              <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div
+                  id="liveToast"
+                  class="toast"
+                  role="alert"
+                  aria-live="assertive"
+                  aria-atomic="true"
+                >
+                  <div class="toast-header text-bg-secondary p-3">
+                    <!-- <img src="img/LOGO DIRKKO.svg" class="rounded me-2" alt="..." /> -->
+                    <strong class="me-auto">DIRKKO</strong>
+                    <small>Justo ahora</small>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="toast"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="toast-body">
+                    Se agrego al carrito de compras
+                  </div>
+                </div>
+              </div>
+
+              <!-- desde aca -->
+            </div>
+          </div></div>
+          <div class="col"> <div class="card" style="width: 18rem">
+            <img src="img/1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Name Product</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <h5 class="card-title">$ 9.99</h5>
+
+              <!-- <a href="#" class="btn btn-primary">Agregar al carrito</a> -->
+              <!-- aqui -->
+
+              <button type="button" class="btn btn-primary" id="liveToastBtn">
+                Agregar al carrito
+              </button>
+
+              <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div
+                  id="liveToast"
+                  class="toast"
+                  role="alert"
+                  aria-live="assertive"
+                  aria-atomic="true"
+                >
+                  <div class="toast-header text-bg-secondary p-3">
+                    <!-- <img src="img/LOGO DIRKKO.svg" class="rounded me-2" alt="..." /> -->
+                    <strong class="me-auto">DIRKKO</strong>
+                    <small>Justo ahora</small>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="toast"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="toast-body">
+                    Se agrego al carrito de compras
+                  </div>
+                </div>
+              </div>
+
+              <!-- desde aca -->
+            </div>
+          </div></div>
+          <div class="col"> <div class="card" style="width: 18rem">
+            <img src="img/1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Name Product</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <h5 class="card-title">$ 9.99</h5>
+
+              <!-- <a href="#" class="btn btn-primary">Agregar al carrito</a> -->
+              <!-- aqui -->
+
+              <button type="button" class="btn btn-primary" id="liveToastBtn">
+                Agregar al carrito
+              </button>
+
+              <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div
+                  id="liveToast"
+                  class="toast"
+                  role="alert"
+                  aria-live="assertive"
+                  aria-atomic="true"
+                >
+                  <div class="toast-header text-bg-secondary p-3">
+                    <!-- <img src="img/LOGO DIRKKO.svg" class="rounded me-2" alt="..." /> -->
+                    <strong class="me-auto">DIRKKO</strong>
+                    <small>Justo ahora</small>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="toast"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="toast-body">
+                    Se agrego al carrito de compras
+                  </div>
+                </div>
+              </div>
+
+              <!-- desde aca -->
+            </div>
+          </div></div>
+          <div class="col"> <div class="card" style="width: 18rem">
+            <img src="img/1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Name Product</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <h5 class="card-title">$ 9.99</h5>
+
+              <!-- <a href="#" class="btn btn-primary">Agregar al carrito</a> -->
+              <!-- aqui -->
+
+              <button type="button" class="btn btn-primary" id="liveToastBtn">
+                Agregar al carrito
+              </button>
+
+              <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div
+                  id="liveToast"
+                  class="toast"
+                  role="alert"
+                  aria-live="assertive"
+                  aria-atomic="true"
+                >
+                  <div class="toast-header text-bg-secondary p-3">
+                    <!-- <img src="img/LOGO DIRKKO.svg" class="rounded me-2" alt="..." /> -->
+                    <strong class="me-auto">DIRKKO</strong>
+                    <small>Justo ahora</small>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="toast"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="toast-body">
+                    Se agrego al carrito de compras
+                  </div>
+                </div>
+              </div>
+
+              <!-- desde aca -->
+            </div>
+          </div></div>
+        </div>
+      </div>
+</body>
+</html>
